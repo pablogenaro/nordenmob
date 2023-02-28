@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1{ font-size: 200px;
+color: hwb(0 100% 0%);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 50px;
+margin: 15px;
+
+}
+
+
+h2{ font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+
+
+.primerparrafo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:normal;
+    font-style: normal;
+    text-align: left;
+    font-size: 15px;
+}
+
+
+.header{
+    padding: auto;
+    margin-left: 30px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+
+    
+
+
+header figure{
+    width: 200px;
+    height: 200px;
+    
+    
+}
+.logotipo{
+    width: 100px
+    height 100px;
+}
+
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    font-weight:bolder;
+    font-style: normal;
+    font-size: 20px;
+    margin: 17px;
+}
+
+
+body{
+    background: color #949279;
+    background: url(../imagenes/fondoo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+
+}
+
+li{
+    margin: 0.75rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bolder;
+    font-style: normal;
+    font-size: 20px;
+    
+}
+
+
+ul li{
+    display: inline-block;
+}
+
+.final{
+        position: fixed;
+        bottom: 0;
+        border-top-left-radius: 15px;
+        background-color: aliceblue;
+        
+
+    }
+    
+
+
+
+a{
+    padding: 30px;
+    text-decoration: none;
+}
+
+img{
+    width: 350px;
+    height: 350px;
+    
+}
+
+
+.padre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    flex-wrap: wrap;
+    
+}
+
+
+div{
+    padding: 15px;
+    margin: 15px;
+    background-color: rgb(143, 143, 106);
+
+    
+}    
+.menu{
+    background: #949279;
+    justify-content: space-between;
+    overflow: hidden;
+    font-style: 0px;
+
+
+
+}
+.container-fluid{
+    display: flex;
+    padding: 30px;
+}
+
+
+
+
+
+.menu :hover{
+    color: black;
+
+}
+
+
+
+
+a{
+    color: white;
+
+}
+
+.contacto h4{
+    color: white;
+    padding-left: 15px;
+    margin: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bolder;
+    font-style: normal;
+    font-size: 20px;
+    
+}
+
+
+.formulario{
+    color: white;
+    padding-left: 15px;
+    margin: 15px;
+    margin-right: 875px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bolder;
+    font-style: normal;
+    font-size: 20px;
+    padding:20px;
+    background: rgb(143, 143, 106);
+}
+
